@@ -1,0 +1,10 @@
+flex
+grid-areas
+
+one background over the other
+- position relative for main
+- postion absolute for top
+
+
+Hidden shadow in small
+- you copy paste the same code for later

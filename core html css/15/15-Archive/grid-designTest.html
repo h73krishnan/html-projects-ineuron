@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <style>
+        .grid-design{
+    display: flex;
+    gap: 1.5%;
+    width: 55%;
+    height: 90%;
+    justify-items: space-around;
+    margin: auto;  
+    margin-top: 4.5%;  
+}
+.boxes{
+    display: grid;
+    grid-template-rows: [first] 15% [line2] 25% [line3] 25% [line4] 30%;
+    height: 100%;
+    width: 30%;
+    padding: 20px;
+}
+.boxes:nth-child(1), .boxes:nth-child(3){
+    background-color: #1e1e1e;
+}
+.boxes:nth-child(2){
+    background-color: #c91b28;
+}
+.boxes:nth-child(2) > h1:nth-child(4){
+    color: #ffff;
+}
+.boxes > i{
+    font-size: 250%;
+}
+.boxes > h1:nth-child(2) {
+    font-size: 25px;
+}
+.boxes> h1:nth-child(4){
+    font-size: 17px;
+    color: #c91b28;
+}
+    </style>
+</head>
+<body>
+    <div class="grid-design">
+        <div class="boxes">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h1>
+               UI Design 
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h1>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h1>
+        </div>
+        <div class="boxes">
+            <i class="fa-solid fa-book-open"></i>
+            <h1>
+                Product Design
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            </p>
+            <h1>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h1>
+        </div>
+        <div class="boxes">
+            <i class="fa-solid fa-file-contract"></i>
+            <h1>Branding</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <h1>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: Orbitron;
+    background-color: #f5f2f0;
+    overflow-y: hidden;
+  }
+  .navbar-container {
+    display: flex;
+    margin: 50px 80px 40px 80px;
+}
+  .line{
+    width: 60%;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 30px; 
+    border-top: 2px solid #000;
+  }
+  .list {
+    display: flex;
+    list-style: none;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .list-item{
+    color: #c1c1c1;
+    font-size: 20px; 
+    margin-left: 100px;
+  }
+
+  .middle-part{
+    display:flex;
+  }
+
+  .navbar-container > div > img {
+    position: absolute;
+  }
+  .main-image{
+    position: relative;
+    top: -170px;
+    left: 0px;
+    width: 35%;
+  }
+  .main-image > img:nth-child(1){
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+  }
+  .main-image > img:nth-child(2){
+    position: relative;
+    top: 80px;
+    left: 100px;
+  }
+
+  .crea-heading{
+    margin-left: 60px;
+    font-size: 190px;    
+    font-family: Times;
+    margin-top: -30px;
+  }
+  .crea-heading:nth-child(1){
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .crea-heading:nth-child(2){
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position: relative;
+    top: -320px;
+    left: 440px;
+    width: 60px;
+}
+  .crea-heading:nth-child(3){
+    position: relative;
+    top: -480px;
+    left: 230px;
+}
+
+.text-btn{
+    display:flex;
+    flex-direction: column;
+}
+
+.text-btn > h2{
+    color: #c1c1c1;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    position: relative;
+    top: 160px;
+    left: 250px; 
+    width: 150px;
+}
+.text-btn > button{
+    padding: 20px 60px 20px 60px;
+    position: relative;
+    top: 150px;
+    left: 270px;
+    font-size: 20px;
+    background-color: #050505;
+    color: #fff;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px; 
+    height: 270px;
+    align-items: center; 
+    margin-left: 280px;
+}

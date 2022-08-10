@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-button{
+    margin-top: 37px;
+    margin-left: 70px;
+    margin-bottom: -130px;
+    display: grid;
+    grid-template-columns: [first] 295px [line2] 50px;
+    height: 60px;
+    width: 323px;
+    padding: 10px;
+}
+.grid-button > div:nth-child(1){
+    display: grid;
+    grid-template-rows: [first]20px [line2] 10px ;
+    align-items: center;
+}
+.grid-button > div:nth-child(1) > p{
+    font-size: 6px;
+    color: #d2d2d2;
+}
+.grid-button > div > button{
+    background-color: #c91b28;
+    color: #fff;
+    border:none;
+    font-size: 5px;
+    padding: 3px 7px 3px 7px;
+}
+    </style>
+
+</head>
+<body>
+    <div class="grid-button">
+        <div>
+            <h2>FEATURED PRODUCTS</h2>    
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <button>VIEW ALL</button>
+        </div>            
+    </div>
+</body>
+</html>

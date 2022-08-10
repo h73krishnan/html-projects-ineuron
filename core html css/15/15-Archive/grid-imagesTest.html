@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <style>
+        .grid-images{
+    display: grid;
+    grid-template-columns: [first]170px [line2]20px;
+    grid-template-rows: [first] 150px [line2]20px [line3] 20px;
+    margin-top: 100px;
+    margin-left: 78px;
+
+}
+.images{
+    display: grid;
+    grid-template-rows: [first] 100px [line1] 23px;
+}
+.images > div {
+    background-color: #1e1e1e;
+    height: 120px;
+    width: 165px;
+}
+.images > div > img{
+    height: 87px;
+    padding-top: 17px;
+    padding-left: 6px;
+}
+.images > h6:nth-child(3){
+    font-size: 7px;
+    color: #c91b28;   
+}
+
+    </style>
+</head>
+<body>
+    <div class="grid-images">
+        <div class="images">
+            <div>
+                <img src="./images/image-art.jpg" alt="">
+            </div>
+            <h2>The Vintage</h2>
+            <h3>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+        </div>
+        <div class="images">
+            <div>
+                <img src="./images/image-burger.jpg" alt="">
+            </div>
+            <h2>Foodasa</h2>
+            <h3>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+        </div>
+        <div class="images">
+            <div>
+                <img src="./images/image-sofa.jpg" alt="">
+            </div>
+            <h2>Marco Accent</h2>
+            <h3>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+        </div>
+        <div class="images">
+            <div>
+                <img src="./images/image-music.jpg" alt="">
+            </div>
+            <h2>Mozaik</h2>
+            <h3>
+                KNOW MORE <i class="fa-solid fa-arrow-right"></i>
+            </h3>
+        </div>
+    </div>
+</body>
+</html>
